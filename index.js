@@ -13,6 +13,12 @@ function TmsMapping () {
    * @param  {function} cb - Nothing returned
    */
   this.tmsAccessionToShadowcatCallnumber = require(`${__dirname}/lib/tms_accession_to_shadowcat_callnumber`)
+  /**
+   * Maps MMS items to TMS Objects based bnumber added in by tmsAccessionToShadowcatCallnumber
+   *
+   * @param  {function} cb - Nothing returned
+   */
+  this.mmsItemsToTmsObjects = require(`${__dirname}/lib/tms_objects_to_mms_objects_by_bnumber`)
 }
 
 module.exports = exports = new TmsMapping()
