@@ -1,0 +1,31 @@
+{
+  "name": "nypl-registry-mapping-tms",
+  "version": "1.0.0",
+  "description": "Map resources from TMS to Catalog/MMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nypl-registry/mapping-tms.git"
+  },
+  "keywords": [
+    "nypl-registry"
+  ],
+  "author": "matt miller <thisismattmiller@gmail.com> (http://twitter.com/thisismmiller)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nypl-registry/mapping-tms/issues"
+  },
+  "homepage": "https://github.com/nypl-registry/mapping-tms",
+  "dependencies": {
+    "cli-color": "^1.1.0",
+    "highland": "^2.7.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2",
+    "standard": "^6.0.8"
+  }
+}
