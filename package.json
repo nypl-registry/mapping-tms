@@ -21,7 +21,9 @@
   "homepage": "https://github.com/nypl-registry/mapping-tms",
   "dependencies": {
     "cli-color": "^1.1.0",
-    "highland": "^2.7.1"
+    "highland": "^2.7.1",
+    "nypl-registry-utils-database": "nypl-registry/utils-database",
+    "nypl-registry-utils-normalize": "nypl-registry/utils-normalize"
   },
   "devDependencies": {
     "mocha": "^2.4.5",
